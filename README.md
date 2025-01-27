@@ -36,6 +36,8 @@ genai-samples/
 - **Markdown Conversion**: Convert various document formats to markdown using LLMs
 - **RAG (Retrieval Augmented Generation)**: Examples of implementing RAG systems
 - **Web Scraping**: Web content extraction and analysis using LLMs
+  - `browser-use.ipynb`: Demonstrates how to use Browser-Use agent to control browser programmatically for web interactions and data extraction
+  - `crawl4ai-sample.ipynb`: Shows how to use crawl4ai for AI-powered web crawling and content extraction with LLM capabilities
 
 ## Contributing
 
