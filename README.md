@@ -12,6 +12,7 @@ genai-samples/
 │   │   ├── rag/                      # Retrieval Augmented Generation examples
 │   │   └── web-scrapping/            # Web scraping examples
 │   └── 3-agents/                     # AI Agent examples
+│       ├── autogen-agent/            # AutoGen Agent examples
 │       └── qwen-agent/               # Qwen Agent examples with code interpreter
 ├── data/                             # Sample data for notebooks
 │   └── raw/                          # Raw input data
@@ -42,8 +43,10 @@ genai-samples/
   - `crawl4ai-sample.ipynb`: Shows how to use crawl4ai for AI-powered web crawling and content extraction with LLM capabilities
 
 ### AI Agents
+- **AutoGen Agent**: Examples using Microsoft's AutoGen framework
+  - `autogen-agent-example1.ipynb`: Demonstrates using AutoGen agents for web surfing and content summarization with multilingual capabilities
 - **Qwen Agent**: Examples using Qwen's agent capabilities
-  - `qwen-agent-example.ipynb`: Demonstrates using Qwen agent with code interpreter and Python executor for local LLM interactions
+  - `qwen-agent-example.ipynb`: Demonstrates using Qwen agent with code interpreter, fact-checking, and article generation capabilities
 
 ## Contributing
 
