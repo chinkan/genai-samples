@@ -13,6 +13,7 @@ genai-samples/
 │   │   └── web-scrapping/            # Web scraping examples
 │   └── 3-agents/                     # AI Agent examples
 │       ├── autogen-agent/            # AutoGen Agent examples
+│       ├── langchain-agent/          # LangChain Agent examples
 │       └── qwen-agent/               # Qwen Agent examples with code interpreter
 ├── data/                             # Sample data for notebooks
 │   └── raw/                          # Raw input data
@@ -45,6 +46,8 @@ genai-samples/
 ### AI Agents
 - **AutoGen Agent**: Examples using Microsoft's AutoGen framework
   - `autogen-agent-example1.ipynb`: Demonstrates using AutoGen agents for web surfing and content summarization with multilingual capabilities
+- **LangChain Agent**: Examples using LangChain's agent capabilities
+  - `langchain-agent-example-1.ipynb`: Demonstrates implementing ReAct agents with message history management, tool integration, and Azure AI Search capabilities
 - **Qwen Agent**: Examples using Qwen's agent capabilities
   - `qwen-agent-example.ipynb`: Demonstrates using Qwen agent with code interpreter, fact-checking, and article generation capabilities
 
