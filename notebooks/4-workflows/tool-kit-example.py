@@ -723,11 +723,7 @@ def document_processing_example():
         nx.draw(subgraph, pos, with_labels=True, node_size=2000, node_color="lightgreen",
                 font_size=10, font_weight="bold", arrows=True, arrowsize=15)
 
-        # Add requested outputs as additional nodes
-        output_producers = {output: system.dependency_manager.output_producers[output]
-                            for output in desired_outputs}
-
-        # Draw edges from producers to output nodes
+        # Add output labels at the bottom of the visualization
         for i, output in enumerate(desired_outputs):
             plt.text(0.5, 0.1 + i*0.1, f"Output: {output}",
                     transform=plt.gca().transAxes, fontsize=12)
