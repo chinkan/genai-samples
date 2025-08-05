@@ -68,3 +68,6 @@ ENV/
 *.swp
 *.swo
 *~
+
+# Claude Code
+.claude/
