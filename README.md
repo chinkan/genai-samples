@@ -11,10 +11,12 @@ genai-samples/
 │   │   ├── markdown_conversion/       # Text to markdown conversion examples
 │   │   ├── rag/                      # Retrieval Augmented Generation examples
 │   │   └── web-scrapping/            # Web scraping examples
-│   └── 3-agents/                     # AI Agent examples
-│       ├── autogen-agent/            # AutoGen Agent examples
-│       ├── langchain-agent/          # LangChain Agent examples
-│       └── qwen-agent/               # Qwen Agent examples with code interpreter
+│   ├── 3-agents/                     # AI Agent examples
+│   │   ├── autogen-agent/            # AutoGen Agent examples
+│   │   ├── langchain-agent/          # LangChain Agent examples
+│   │   └── qwen-agent/               # Qwen Agent examples with code interpreter
+│   └── 5-evaluation/                 # LLM evaluation examples
+│       └── deepeval/                 # DeepEval framework examples
 ├── data/                             # Sample data for notebooks
 │   └── raw/                          # Raw input data
 └── .env.sample                       # Template for environment variables
@@ -50,6 +52,11 @@ genai-samples/
   - `langchain-agent-example-1.ipynb`: Demonstrates implementing ReAct agents with message history management, tool integration, and Azure AI Search capabilities
 - **Qwen Agent**: Examples using Qwen's agent capabilities
   - `qwen-agent-example.ipynb`: Demonstrates using Qwen agent with code interpreter, fact-checking, and article generation capabilities
+
+### LLM Evaluation
+- **DeepEval Framework**: Examples for evaluating LLM agents and applications using comprehensive metrics
+  - `react-agent-evaluation.ipynb`: Complete evaluation notebook demonstrating how to assess React agents with multiple DeepEval metrics including Answer Relevancy, Faithfulness, and Contextual Relevancy
+  - Features automated evaluation workflows, citation accuracy verification, and detailed result analysis with CSV/Excel export capabilities
 
 ## Contributing
 
